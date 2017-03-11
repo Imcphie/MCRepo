@@ -4,4 +4,15 @@ th {
 }
 #bandinfo{
     border: 3px red dashed;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+#albumpic{
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/d/d9/AKMU_Play_physical_album_cover.JPG);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-x: center;
+    background-position-y: center;
+}
+#bandinfo2{
+    font-style: italic;
 }
