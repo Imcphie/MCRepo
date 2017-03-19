@@ -17,3 +17,23 @@ h1 {
     font-size: 20px;
     text-align: left;
 }
+a:visited{
+    color: seagreen;
+}
+a:hover{
+    font-weight: bold;
+}
+a:link{
+    color: darkblue;
+}
+a:active{
+    text-decoration: none;
+}
+#beverages{
+    width: 400px;
+    height: 200px;
+    font-size: 20px;
+}
+thead{
+    font-size: 21px;
+}
