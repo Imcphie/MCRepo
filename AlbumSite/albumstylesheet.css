@@ -1,6 +1,7 @@
 th {
     color:red;
     text-decoration: underline;
+    text-align: left;
 }
 #bandinfo{
     border: 3px red dashed;
