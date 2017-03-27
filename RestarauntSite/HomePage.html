@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html>
-    <head>
+<head>
     <title>Home Page</title>
     <style>
         body{
             background-color: #ffa71a;
         }
-        .jumbotron{
-            font-size: 30px;
-            color: silver;
-            background-color: gold;
-        }
+      .carousel-inner{
+        width: 100%;
+        height: 100px;
+      }
     </style>
     <link href="reststyle.css" 
       rel="stylesheet" 
@@ -18,21 +17,62 @@
     <link href="css/bootstrap.css" 
       rel="stylesheet" 
       type="text/css" />
-    <link href="js/bootstrap.js" 
-      rel="stylesheet" 
-      type="text/css"/>
+
      <meta charset="UTF-8"/>
      <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    </head>
-      <div class="jumbotron" style="font-size: 30px; color: silver; background-color:gold; text-align: center;">
-        NEW LOCATION OPENING IN PIANA, ALASKA!!!!!! COME NOW AND GET FREE SAMPLES!!
-    </div>
-    <div style="background-color: white;">
-        <div class="container"><h1 style="color: cadetblue"><center>Big Boy's Burger</center></h1></div>
+   
+</head>
+    
+    
+  <div class="container-fluid">
+    <div class="row">
+      <div id="theCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#theCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#theCarousel" data-slide-to="1"></li>
+            <li data-target="#theCarousel" data-slide-to="2"></li> 
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+            <div class="slide1">
+            <div class="carousel-content">
+                <center><h3 style="color: deepskyblue;">NEW LOCATION OPENING IN PIANA, ALASKA!!!! COME IN FOR FREE SAMPLES!</h3>
+            </div>
+            </div>
+            </div>
+             <div class="item">
+            <div class="slide2">
+            <div class="carousel-content">
+                <center><h3 style="color: deepskyblue;">NEW SEASON, NEW MENU! SPECIAL OPTIONS FOR A LIMITED TIME!!!</h3>
+            </div>
+            </div>
+            </div>
+             <div class="item">
+            <div class="slide3">
+            <div class="carousel-content">
+                <center><h3 style="color: deepskyblue;">THIRSTY? NOT FOR LONG! COME IN FOR OUR BEER OF THE MONTH - SG SPECIAL BREW!!! GLUG GLUG!</h3>
+            </div>
+            </div>
+            </div>
+        
+        </div>
+        
+
+        <a class="left carousel-control" href="#theCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span></a>
+        <a class="right carousel-control" href="#theCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a>
+        
+      </div>
+      </div>
+  </div>
+
+    <div  class="container-fluid" style="background-color: white;">
+        <div><h1 style="color: cadetblue"><center>Big Boy's Burger</center></h1></div>
           <hr>
           <br>
          <ul class="nav nav-tabs">
-            &emsp;<li class="active, col"><a href="HomePage.html"><span class="glyphicon glyphicon-home"></span></a>&emsp;</li>
+            &emsp;<li class="active"><a href="HomePage.html"><span class="glyphicon glyphicon-home"></span></a>&emsp;</li>
             &emsp;<li><a href="Menu.html">Menu</a>&emsp;</li>
             &emsp;<li><a href="ContactUs.html">Contact Us</a></li>
         </ul>
@@ -73,5 +113,6 @@
             </p>
         </center>
     </div>
-    
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 </html>
